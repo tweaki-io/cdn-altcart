@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C3AE3"/>
+      <stop offset="100%" stop-color="#2A1E8F"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A5B"/>
+      <stop offset="100%" stop-color="#FF5D4A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon badge -->
+  <rect x="16" y="16" width="168" height="168" rx="40" fill="url(#badgeGrad)"/>
+
+  <!-- Cart basket -->
+  <path d="M55 78 L145 78 L132 138 L70 138 Z"
+        fill="none" stroke="#FFFFFF" stroke-width="9"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cart handle -->
+  <path d="M35 62 L58 62 L67 78"
+        fill="none" stroke="#FFFFFF" stroke-width="9"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Wheels -->
+  <circle cx="83" cy="152" r="9" fill="#FFFFFF"/>
+  <circle cx="120" cy="152" r="9" fill="url(#accentGrad)"/>
+
+  <!-- "Alt" swap-arrows accent, top-right of badge -->
+  <g transform="translate(148,44)">
+    <path d="M0 6 A12 12 0 0 1 22 3" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="22,3 16,0 18,7" fill="#FF5D4A"/>
+    <path d="M22 14 A12 12 0 0 1 0 17" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="0,17 6,20 4,13" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="212" y="120" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="58" font-weight="700" fill="#2A1E8F">shop<tspan fill="#FF5D4A" font-style="italic">alt</tspan>cart</text>
+
+  <!-- Tagline -->
+  <text x="215" y="150" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="3" fill="#6B6B85">SMART CHOICES, YOUR STYLE</text>
+</svg>
