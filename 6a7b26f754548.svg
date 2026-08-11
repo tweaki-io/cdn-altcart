@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C3AE3"/>
+      <stop offset="100%" stop-color="#2A1E8F"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A5B"/>
+      <stop offset="100%" stop-color="#FF5D4A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon badge -->
+  <rect x="16" y="16" width="168" height="168" rx="40" fill="url(#badgeGrad)"/>
+
+  <!-- House roof -->
+  <path d="M45 100 L100 55 L155 100"
+        fill="none" stroke="#FFFFFF" stroke-width="9"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- House body -->
+  <path d="M60 92 L60 148 L140 148 L140 92"
+        fill="none" stroke="#FFFFFF" stroke-width="9"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Whisk handle (kitchen element) -->
+  <line x1="100" y1="102" x2="100" y2="122" stroke="url(#accentGrad)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Whisk wires -->
+  <path d="M92 122 C88 132, 88 140, 100 144 C112 140, 112 132, 108 122"
+        fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M96 122 C94 130, 94 136, 100 140" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M104 122 C106 130, 106 136, 100 140" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small heart accent (home warmth) -->
+  <circle cx="128" cy="70" r="5" fill="url(#accentGrad)"/>
+
+  <!-- Wordmark -->
+  <text x="212" y="112" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="52" font-weight="700" fill="#2A1E8F">Home<tspan fill="#FF5D4A" font-style="italic"> &amp; </tspan>Kitchen</text>
+
+  <!-- Tagline -->
+  <text x="215" y="145" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="3" fill="#6B6B85">EVERYTHING FOR YOUR SPACE</text>
+</svg>
