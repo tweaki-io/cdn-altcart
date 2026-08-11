@@ -1,0 +1,48 @@
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C3AE3"/>
+      <stop offset="100%" stop-color="#2A1E8F"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A5B"/>
+      <stop offset="100%" stop-color="#FF5D4A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon badge -->
+  <rect x="16" y="16" width="168" height="168" rx="40" fill="url(#badgeGrad)"/>
+
+  <!-- Steam lines -->
+  <path d="M80 55 C76 62, 84 66, 80 73" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M100 50 C96 57, 104 61, 100 68" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M120 55 C116 62, 124 66, 120 73" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Pot body -->
+  <path d="M62 90 L138 90 L130 138 C130 145, 70 145, 70 138 Z"
+        fill="none" stroke="#FFFFFF" stroke-width="9"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Pot rim -->
+  <line x1="58" y1="90" x2="142" y2="90" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Pot handles -->
+  <line x1="58" y1="90" x2="46" y2="86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <line x1="142" y1="90" x2="154" y2="86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Crossed spoon and spatula accent -->
+  <g transform="translate(100,118) rotate(45)">
+    <line x1="-22" y1="0" x2="14" y2="0" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-22" cy="0" r="7" fill="url(#accentGrad)"/>
+  </g>
+  <g transform="translate(100,118) rotate(-45)">
+    <line x1="-22" y1="0" x2="14" y2="0" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-30" y="-6" width="10" height="12" rx="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="212" y="112" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="50" font-weight="700" fill="#2A1E8F">Kitchen<tspan fill="#FF5D4A" font-style="italic"> Accessories</tspan></text>
+
+  <!-- Tagline -->
+  <text x="215" y="145" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="3" fill="#6B6B85">TOOLS FOR EVERY RECIPE</text>
+</svg>
